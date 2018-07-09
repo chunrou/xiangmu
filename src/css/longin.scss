@@ -1,0 +1,163 @@
+#login{
+    padding-top: 20px;
+}
+.top{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc; 
+    h1{
+        color:#a10000;
+        font-size: 35px;   
+    }
+    span a{
+        font-size: 12px;
+        line-height: 55px;
+        color: #727171;
+    }
+} 
+#main{
+    overflow:hidden;
+}
+.left{
+    padding-top: 100px;
+    padding-left: 80px;
+    .img{
+        width: 350px;
+        height: 350px;
+        margin-right: 80px;
+        /*border:1px solid #ccc;*/
+        margin-bottom: 15px;   
+    }
+    .one{
+
+        color:#a10000;
+        padding-right: 6px;
+        font-size: 18px;
+    }
+    .xian{
+        display:inline-block;
+        width: 1px;
+        height: 15px;
+        background:#000;
+    }
+    .two{
+        color:#000;
+    }
+}
+.right{
+    margin-left: 100px;
+    padding-top: 50px;
+    .one{
+        font-size: 22px;
+        color: #979797;
+        font-weight: bolder;
+        text-align: left;
+        height: 25px;
+        line-height: 25px;
+        margin-right: 100px;
+    }
+    .two{
+        color: #979797;
+        font-size: 14px;
+    }
+    .two a{
+        color:#a10000;
+    }
+    .login{
+        width: 200px;
+        height: 35px;
+        line-height: 35px;
+        float: left;
+        text-align: center;
+        background: #f5f5f5;
+        color: #656565;
+        cursor: pointer;
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    .zhong{
+        padding-top: 50px;
+        padding-left: 25px;
+        input{
+            width: 350px;
+            height: 45px;
+            border:1px solid #ccc;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+    }
+    .password a{
+        color:#a10000;
+        font-size: 14px;
+        font-weight: bold;
+        padding-right: 20px;
+
+    }
+    .btn{
+        background:#a10000;
+        font-size: 20px;
+        color:#fff;
+        margin-top: 10px;
+    }
+    .wei{
+        padding-left: 25px;
+        border-top: 1px dashed #ccc;
+        padding-top:10px;
+        p{
+            color:#a4a4a4;
+        }
+        li{
+            float:left;
+            padding:10px;
+            a i{
+                font-size: 28px;
+            }
+            .wx{
+                color:green;
+            }
+            .xiao{
+                color:orange;
+            }
+            .zhi{
+                color:blue;
+            }
+            .qq{
+                color:green;
+            }
+            .an{
+                color:green;
+            }
+            .weibo{
+                color:red;
+            }
+        }
+    }
+} 
+form{
+    border:1px solid #ccc;
+    overflow:hidden;
+    margin-top: 25px;
+} 
+.query{
+    padding-left: 25px;
+    display:none;
+    input{
+        width: 250px;
+        height: 45px;
+        border:1px solid #ccc;
+        padding-left: 10px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .code{
+        width: 100px;
+        padding-right: 10px;
+        margin-left: 10px;
+        background:#f5f5f5;
+        color:#a10000;
+        font-weight: bold;
+    }
+    .phone{
+        width: 350px;
+    }
+}
+

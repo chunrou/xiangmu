@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;} 
+.bread{
+    margin-top: 80px;
+    font-size: 12px;
+    color: #333;
+    a{
+        color: #333;
+    }
+}
+.blod{
+    font-weight: bold;
+}
+.you{
+    margin-left: 10px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    color: #a10000;
+}
+.main h2{
+    line-height: 48px;
+    float:left;
+}
+.dapei{
+    margin-right: 20px;
+    overflow: hidden;
+    li{
+        float: left;
+        padding: 10px 0;
+        a{
+            font-size: 14px;
+            border-right: 1px solid #ccc;
+            padding: 0 8px ;
+            font-size: 14px;
+            font-weight: bold;
+            color:#000;
+        }
+    }
+}
+
+.xian{
+    margin-top: 90px;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    padding-left: 75px;
+   /*  padding-left: 250px;*/
+}
+.xian>ul>li img{
+    width: 100px;
+    height: 100px;
+}
+.xian>ul>li{
+    margin-top: 10px;
+    border:1px solid #ccc;
+}
+#demo {
+    display: block;
+    width: 400px;
+    height: 425px;
+    margin-left: 120px;
+    position: relative;
+    border: 1px solid #ccc;
+    /*overflow:hidden;*/
+    
+}
+#small-box {
+    position: relative;
+    z-index: 1;
+    
+}
+
+#float-box {
+    display: none;
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    background: #ffffcc;
+    border: 1px solid #ccc;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+#mark {/*应该是把图片放在这个上面，它的透明度为0，是个block*/
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 425px;
+    background-color: #fff;
+    filter: alpha(opacity=0);/*过滤器，目前只有少数浏览器支持*/
+    opacity: 0;
+    z-index: 10;
+
+}
+/*放大镜盒子和图片*/
+#big-box {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 460px;
+    width: 500px;
+    height: 500px; 
+    overflow: hidden;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+#big-box>img {
+    position: absolute;
+    z-index: 5;
+    /*display: none;*/
+    width: 1000px;
+    height: 1000px;
+}
+
+
+.big{
+    width: 600px;
+    height: 600px;
+}
+.jia{
+    /*position:absolute;
+    left:656px;
+    top:344px;
+    font-size: 14px;*/
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 425px;transform: translateY(-400px);
+    margin-right: 120px;
+    p{
+        color:#a10000;
+        .yuan{
+            font-size: 28px;
+        }
+    }
+}
+.xiao{
+    margin-left: 5px;
+    overflow:hidden;
+    li{
+        float:left;
+        width: 80px;
+        height: 40px;
+        margin-right: 10px;
+        a{
+            font-size: 12px;
+            img{
+                 width: 40px;
+                 height: 40px;
+            }
+        }
+       
+    }
+}
+.color{
+    line-height: 48px;
+}
+.chima span{
+    position:absolute;
+    left:3px;
+    top:80px;
+}
+.xiao_f li{
+    float:left;
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    text-align: center;
+    border:1px solid #ccc;
+    margin-top:10px;
+   
+}
+.shu{
+    position:absolute;
+    left:3px;
+    top:141px;
+}
+.xuan{
+    position:absolute;
+    left:3px;
+    top:181px;
+}
+.yanse{
+    color:#a10000;
+}
+.buy{
+    position:absolute;
+    left:3px;
+    top:221px;
+    width:100px;
+    height: 40px;
+    background:pink;
+}
+.buy1{
+    position:absolute;
+    left:120px;
+    top:221px;
+    width:100px;
+    height: 40px;
+    padding-left: 20px;
+    background:#a10000;
+    color:#fff;
+}
+.che{
+    position:absolute;
+    left:125px;
+    top:234px;
+    width:10px;
+    color:#fff;
+}
+.tie{
+    position:absolute;
+    left:3px;
+    top:284px;
+    border-top: 1px solid #a10000;
+    border-bottom: 1px solid #a10000;
+    padding:10px 0 ;
+    width: 400px;
+     h3{
+        position:absolute;
+        left:150px;
+        top:-13px;
+        margin-left: 10px;
+        width:80px;
+        height: 40px;
+        background:#fff;
+        text-align: center;
+        color:#a10000;
+        font-weight: bold;
+    }
+    p{
+            font-size: 12px;
+            color:#666666;
+            line-height: 24px;
+    }
+    span{
+        display:inline-block;
+        width: 40px;
+        height: 20px;
+        background:#a10000;
+        color:#fff;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+.zhinan{
+    margin-top: 100px;
+    padding-top: 60px;
+    border-top: 1px solid #000;
+    position:relative;
+    h3{
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 20px;
+        position:absolute;
+        top:-15px;
+        left:500px;
+        width: 150px;
+        height: 30px;
+        background:#fff;
+    }
+} 
+.jian{
+    overflow:hidden;
+    li{
+        width: 120px;
+        /*height: 150px;*/
+        font-size: 12px;
+        text-align: center;
+        padding-top: 5px;
+        img{
+            height: 120px;
+            width: 120px;
+        }
+        em{
+            color: #a10000;
+            font-weight: bold;
+        }
+    }
+}
+.ping {
+    position: relative; 
+    margin-left: 180px;
+    border:1px solid #ccc;
+    overflow:hidden;
+    padding:10px 0;
+    font-size: 12px;
+
+}
+.ping_top{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.peo{
+    position:absolute;
+    top: -9px;
+    right:60px;
+    background:#d46a6a;
+    color:#fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    a{
+        display:block;
+        width: 100px;
+        height: 35px;
+        color:#fff;
+        font-size: 12px;
+        line-height: 35px;
+
+    }
+}
+.ping_l>ul>li{
+    height: 120px;
+    padding:10px 0 0 20px;
+    border-bottom: 1px dashed #ccc;
+}
+.ding{
+    position:absolute;
+    left:500px;
+    top:54px;
+
+}
+.r{
+    width: 100px;
+    height: 120px;
+    border-left: 1px dashed #ccc;
+    margin-right: 50px;
+}
+.ping_2{
+    display:none;
+}
+
+
+

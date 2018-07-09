@@ -1,0 +1,229 @@
+/* 
+* @Author: Marte
+* @Date:   2018-07-03 15:17:22
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-03 19:28:31
+*/
+.main{
+    margin-top:80px;
+    /*height: 1000px;*/
+    overflow:hidden;
+    p a{
+        color:#727171;
+    }
+}
+.help{
+    margin-top: 10px;
+    background: #f2f2f2;
+    overflow:hidden;
+    h2{
+        padding-left: 20px;
+        line-height: 55px;
+        font-size: 20px;
+        color: #b81c20;  
+        /*margin-bottom: 20px;*/
+    }
+    .need{
+        width: 314px;
+        height: 16px;
+        padding: 3px 3px;
+        border: 1px solid #e0e0e0;
+        background: #fff;
+        line-height: 18px;
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+    .btn{
+        width: 71px;
+        height: 24px;
+         margin-top: 13px;
+      /*  background: url(http://i.vanclimg.com/others/2012/2/9/help/images/helpcenter/bzsousuo.jpg) no-repeat scroll;*/
+        border: none;
+        cursor: pointer;
+        background:#a10000;
+        color:#fff;
+        font-size: 12px;
+    }
+} 
+.import{
+    margin-top: 18px;
+    .left{
+        width: 330px;
+    }
+    .right{
+        overflow:hidden;
+    }
+}
+.top{
+    border:1px solid #ccc;
+    h3{
+        width: 330px;
+        height: 40px;
+        background: url(http://i1.vanclimg.com/cms/20160815/helptop.png) no-repeat scroll 0px 0px;
+        text-indent: -9999px;
+    }
+    ul{
+        overflow:hidden;
+        margin-top: 18px;
+        margin-bottom: 20px;
+        margin-left: 7px;
+        li{
+            width: 150px;
+            /*height: 40px;*/
+            line-height: 40px;
+            text-align: center;
+            float: left;
+            margin: 0px 0px 10px 5px;
+            font-size: 16px;
+            background: #f2f2f2;
+
+        }
+    }
+}
+.mindel{
+    /* overflow:hidden;*/
+    margin-top: 20px;
+    border:1px solid #ccc;
+    h3{
+        width: 330px;
+        height: 40px;
+        background: url(http://i1.vanclimg.com/cms/20160815/helptop.png) no-repeat scroll 0px -40px;
+        text-indent: -9999px;
+    }
+    h4{
+        /*height: 40px;*/
+        border-bottom: 1px dotted #efefef;
+        padding-left: 35px;
+        background: url(http://i1.vanclimg.com/cms/20160815/downpoint.png) no-repeat scroll 18px 15px #f8f8f8;
+        color: #333333;
+        font-size: 16px;
+        line-height: 40px;
+    }
+     ul{ 
+        font-size: 14px;
+        background:#fff;
+        padding: 10px 0px 10px 50px;
+        line-height: 32px;
+        display: none;
+        a{
+            color: #333333;
+        }
+    }
+}
+.button {
+    border:1px solid #ccc;
+    margin-top: 20px;
+    h3 {
+        width: 330px;
+        height: 40px;
+        background: url(http://i1.vanclimg.com/cms/20160815/helptop.png) no-repeat scroll 0px -80px;
+        text-indent: -9999px;
+        margin-bottom: 20px;
+    }
+     p{
+        font-size: 18px;
+        background:#fff;
+        padding: 10px 0px 10px 50px;
+        line-height: 18px;
+        span{
+            font-weight: bold;
+        }
+    }
+}
+.right .big{
+    /*width: 848px;*/
+    border: 1px solid #f2f2f2;
+    border-top: 2px solid #b81c22;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+.biaoti {
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 5px;
+    background: url(http://i.vanclimg.com/help/xian2.gif) bottom repeat-x;
+    b {
+        border-bottom: 2px solid #92002D;
+        padding: 0 5px;
+        padding-bottom: 3px;
+    }
+} 
+.tab {
+    margin-top: 15px;
+}
+.tab_bg0 {
+    width: 700px;
+    height: 40px;
+    line-height: 40px;
+    background: url(http://i1.vanclimg.com/cms/20160818/news_bghover.png) no-repeat 0px 0px;
+    cursor: pointer;
+    .tab_cle{
+        line-height: 38px;
+        float: left;
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+        color: #ffffff;
+        text-indent: 17px;
+    }
+}
+.tab_common {
+    
+    width: 157px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: left;
+    cursor: pointer;
+    text-indent: 52px;
+    font-size: 14px;
+    color: #b81c22;
+
+}
+.tab_cle2{
+    padding-left: 50px;
+    padding-top: 40px;
+    p{
+        font-size: 14px;
+        margin-top: 10px;
+        span{
+            color:#a10000;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+    .chang{
+        margin-top: 10px;
+    }
+    .form{
+        margin-left: 100px;
+    }
+}
+ 
+.zhu a{
+    display:block;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.jie{
+    margin-left: 580px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    .jie1{
+        color:#a10000;
+    }
+    .ti{
+        width: 90px;
+        height: 30px;
+        background:#a10000;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+}
+
+
